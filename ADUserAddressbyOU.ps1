@@ -1,0 +1,6 @@
+﻿get-aduser -SearchBase "OU=East Knoxville,OU=AppStoreDisabled,DC=stowerscat,DC=com" -Filter * | set-aduser -streetaddress "6301 Old Rutledge Pike" -City "Knoxville" -state "TN" -postalcode "37924" -country "US"
+get-aduser -SearchBase "OU=Chattanooga,OU=AppStoreDisabled,DC=stowerscat,DC=com" -Filter * | set-aduser -streetaddress "4066 South Access Road" -City "Chattanooga" -state "TN" -postalcode "37406" -country "US"
+get-aduser -SearchBase "OU=Crossville,OU=AppStoreDisabled,DC=stowerscat,DC=com" -Filter * | set-aduser -streetaddress "215 Interchange Drive" -City "Crossville" -state "TN" -postalcode "38571" -country "US"
+get-aduser -SearchBase "OU=Sevierville,OU=AppStoreDisabled,DC=stowerscat,DC=com" -Filter * | set-aduser -streetaddress "1825 Veterans Boulevard" -City "Sevierville" -state "TN" -postalcode "37862" -country "US"
+get-aduser -SearchBase "OU=Kingsport,OU=AppStoreDisabled,DC=stowerscat,DC=com" -Filter * | set-aduser -streetaddress "9960 Airport Parkway" -City "Kingsport" -state "TN" -postalcode "37663" -country "US"
+get-aduser -SearchBase "OU=West Knoxville,OU=AppStoreDisabled,DC=stowerscat,DC=com" -Filter * | set-aduser -streetaddress "10644 Lexington Drive" -City "Knoxville" -state "TN" -postalcode "37932" -country "US"
