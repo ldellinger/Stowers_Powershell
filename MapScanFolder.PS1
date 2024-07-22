@@ -1,0 +1,1 @@
+﻿New-PSDrive -Name "S" -PSProvider "FileSystem" -Root "\\smcfile\scans\smc0329" -Persist

@@ -40,4 +40,4 @@ foreach ($UserToDelete in $DisabledUsersToDelete) {
 }
 
 # Append log messages to the newly created log file
-$LogMessages | Out-File -FilePath \\d39dc1.stowerscat.com\c$\Scripts\DisabledUserLog.txt -Append
+$LogMessages | Out-File -FilePath \\d39dc1.stowerscat.com\c$\Scripts -Append
